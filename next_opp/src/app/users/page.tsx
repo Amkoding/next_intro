@@ -1,3 +1,5 @@
+
+
 import React from 'react'
 interface User {
   id: number;
@@ -26,7 +28,7 @@ const UsersPage = async() => {
       {users.map(user => <tr key={user.id}>
         <td>{user.name}</td>
         <td>{user.email}</td></tr>)}
-    </tbody> 
+    </tbody>
     </table>
     </>
   )
